@@ -5,14 +5,7 @@ if the_world_is_flat:
     print("Be careful not to fall off!")
 
 
-def fib(n):
-    a,b=0,1
-    while a<n:
-        print(a,end=' ')
-        a,b=b,a+b
-    print()
 
-fib(2000)
 
 i=256*256
 print('The value of i is', i)
